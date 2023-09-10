@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FET Stage one Task</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div id="slack-name">
+        <h1 data-testid="slackUserName">David</h1>
+    </div>
+
+    <div class="flex">
+        <div class="flex-child"  id="slack-dp">
+            <img src="david.jpg" alt="david" data-testid="slackDisplayImage">
+        </div>
+
+        <div class="flex-child" id="time-and-date">
+            <h2 id="realtime">Real Time - Time and Date</h2>
+            <p id="date" data-testid="currentDayOfTheWeek">
+                Date:
+            </p>
+            <p id="time" data-testid="currentUTCTime">
+                Time:
+            </p>
+        </div>
+    </div>
+
+    <div class="flex2">
+        <h2 class="flex-child2" data-testid="myTrack">Track: Frontend</h2>
+        <a class="flex-child2" href="https://github.com/DavidOtes/FET-Stage-One-Task.git" data-testid="githubURL">
+            <button type="button">
+            GitHub Repo
+            </button>
+        </a>
+    </div>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#slack-name {
+    background-color: antiquewhite;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+
+} 
+
+
+
+img {
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 250px;
+    border-radius: 20px;
+}
+
+#time-and-date {
+    margin-top: 50px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    padding-left: 30px;
+    border-radius: 20px;
+    background-color: bisque;
+}
+
+#realtime {
+    text-align: center;
+}
+
+#date {
+    background-color: #DEB175;
+    margin: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#time {
+    background-color: #DEB175;
+    margin: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.flex2 {
+    display: flex;
+    background-color: bisque;
+    max-width: 40%;
+    margin-left: 28%;
+    padding-left: 30px;
+    border-radius: 20px;
+}
+
+.flex-child2 {
+    flex: 1;
+}
+
+button {
+    background-color: #a36616;
+    border: none;
+    color: white;
+    margin-top: 10px;
+    padding: 15px 35px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
