@@ -8,9 +8,6 @@ function updateTimeandDate() {
     const dateOptions = {
         timeZone: 'UTC',
         weekday: 'long',
-        year: 'numeric',
-        month: 'long',
-        day: 'numeric',
     };
 
     const DateFormat = presentDate.toLocaleDateString(undefined, dateOptions);
